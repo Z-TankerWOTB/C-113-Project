@@ -1,0 +1,32 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-primary:hover{
+    background-color: rgba(9, 207, 217, 0.624);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+	0% {
+		box-shadow: 1px 1px 40px red;
+	}
+    25%{
+        box-shadow: 1px 1px 38px rgb(237, 88, 8);
+    }
+
+	50% {
+		box-shadow: 1px 1px 39px rgba(53, 234, 216, 0.929);
+	}
+    75%{
+        box-shadow: 1px 1px 40px rgb(2, 113, 113);
+    }
+	100% {
+		box-shadow: 1px 1px 38px rgba(0, 255, 255, 0.921);
+	}
+}
